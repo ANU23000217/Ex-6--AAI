@@ -23,11 +23,11 @@ Step 5:Iterate through each word in the tokenized text.<br>
 ```
 !pip install nltk
 import nltk
-nltk.download( 'punkt' )
+nltk.download( 'punkt_tab' )
 nltk.download('wordnet')
 nltk.download('omw-1.4')
 from nltk.tokenize import word_tokenize
-nltk.download( 'averaged_perceptron_tagger' )
+nltk.download( 'averaged_perceptron_tagger_eng' )
 from nltk.corpus import wordnet
 
 sentence=input()
@@ -48,8 +48,10 @@ print ( "Synonyms : " ,set(synonyms))
 print ( "Antonyms : " ,set(antonyms))
 ```
 ## Output
-![image](https://github.com/user-attachments/assets/34dd06d1-68d6-49c5-860e-aa68b5fea840)
-![image](https://github.com/user-attachments/assets/175dfb6c-9450-472c-b859-e1d56442b7e8)
+![Screenshot 2024-11-15 111252](https://github.com/user-attachments/assets/8bb75365-27c3-4733-acc2-d46fea796526)
+![image](https://github.com/user-attachments/assets/19a06097-ba4e-4a5d-9efa-68930f144a37)
+
+![image](https://github.com/user-attachments/assets/0ceed27c-cf0d-4c16-bb6d-f5125f43169e)
 
 ## Result:
 Thus,the program to perform the Parts of Speech identification and Synonymis executed sucessfully.
