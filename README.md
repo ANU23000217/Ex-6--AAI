@@ -48,7 +48,8 @@ print ( "Synonyms : " ,set(synonyms))
 print ( "Antonyms : " ,set(antonyms))
 ```
 ## Output
-![image](https://github.com/user-attachments/assets/aa2fb50a-bd8e-4b4d-94b1-758669cec88b)
+![image](https://github.com/user-attachments/assets/34dd06d1-68d6-49c5-860e-aa68b5fea840)
+![image](https://github.com/user-attachments/assets/175dfb6c-9450-472c-b859-e1d56442b7e8)
 
 ## Result:
 Thus,the program to perform the Parts of Speech identification and Synonymis executed sucessfully.
